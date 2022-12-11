@@ -18,7 +18,6 @@ const TextFormate = () => {
     if (textarea.value.length > 0) {
       alertMesssage.innerHTML = "Text Converted to UpperCase Successfully !";
     }
-    document.body.classList.add("UpperCase-color");
   });
 
   LowerCase.addEventListener("click", (e) => {
@@ -74,7 +73,6 @@ const TextFormate = () => {
       });
   };
   Translate.addEventListener("click", (e) => {
-    e.preventDefault();
     e.preventDefault();
     fetchData(textarea.value);
     if (textarea.value.length > 0) {
