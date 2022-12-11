@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, #000000, #041b01, #000000);
+}
+.alertBox {
+  position: absolute;
+  overflow-x: hidden;
+}
+.demo {
+  display: none;
+}
+#text {
+  color: red;
+}
